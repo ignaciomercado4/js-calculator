@@ -10,7 +10,7 @@ function calculate() {
     try {
         calculatorDisplay.value = eval(calculatorDisplay.value)
     } catch (error) {
-        calculatorDisplay.value = "Syntax ERROR"
+        calculatorDisplay.value = "Syntax Error!"
     }
 }
 
